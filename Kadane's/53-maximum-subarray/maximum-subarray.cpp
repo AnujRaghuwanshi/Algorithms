@@ -11,9 +11,9 @@ public:
     }
 };
 
-It improves upon the O(n2) brute-force approach by traversing the array once and keeping track of the maximum sum ending at the current position
-Core Idea: For each element, decide whether to start a new subarray or extend the existing maximum subarray.
+// It improves upon the O(n2) brute-force approach by traversing the array once and keeping track of the maximum sum ending at the current position
+// Core Idea: For each element, decide whether to start a new subarray or extend the existing maximum subarray.
 
-Variations and Notes
-Handling All Negative Numbers: If the array contains only negative numbers, the standard Kadane's algorithm returns the highest negative number (closest to zero).
-Empty Subarray: If an empty subarray is allowed (resulting in a sum of 0), you should initialize max_so_far to 0 instead of nums[0]
+// Variations and Notes
+// Handling All Negative Numbers: If the array contains only negative numbers, the standard Kadane's algorithm returns the highest negative number (closest to zero).
+// Empty Subarray: If an empty subarray is allowed (resulting in a sum of 0), you should initialize max_so_far to 0 instead of nums[0]
