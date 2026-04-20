@@ -21,3 +21,15 @@ public:
         return res;
     }
 };
+
+// Binary exponentiation, also known as exponentiation by squaring, is an efficient algorithm to calculate large powers of a number (a^n) in time O(logn), 
+// compared to the time required by naive multiplication O(n).
+// Any integer can be written as a sum of powers of two (e.g., which is 1101 in binary).
+    
+// Rule for Even : a^n = (a^n/2)^2
+// Rule for Odd : a^n = a . (a^n/2)^2
+
+
+
+
+
